@@ -14,11 +14,14 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@mikro-orm/cli": "^6.4.3",
     "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   },
   "dependencies": {
     "@mikro-orm/core": "^6.4.3",
+    "@mikro-orm/migrations": "^6.4.3",
     "@mikro-orm/postgresql": "^6.4.3",
     "dotenv": "^16.4.7",
     "nodemon": "^3.1.9",
